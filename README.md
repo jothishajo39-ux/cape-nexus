@@ -41,8 +41,13 @@ Devi -	Student Development Tracker
 🗓️ Meeting Log (Sep – Oct 2026)
 Date	Topics
 12 Sep	Skill analysis, technical discussion, council responsibilities, activity planning
+
 19 Sep	Technical roadmap, Python plan, project development, real-world ideas
+
 26 Sep	90-day roadmap, Problem Bank, responsibilities, mini-project planning
+
 3 Oct	Case study, Python, AI & IoT basics, technical activities
+
 17 Oct	AI, semiconductor technology, electrical opportunities, practical learning
+
 24 Oct	Case study review, CAPE Clouds 2.0, Quantum Computing, Industrial Visit planning
