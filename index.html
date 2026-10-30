@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CAPE NEXUS | ARC Team</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f6fa;
+    color: #17213b;
+}
+
+header {
+    background: #061747;
+    padding: 15px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #e7b94f;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #e7b94f;
+}
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #041239,
+        #0b2b70
+    );
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 3px solid #e7b94f;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #e7b94f;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+.hero h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    line-height: 1.8;
+    color: #e0e7f7;
+}
+
+.hero button {
+    background: #e7b94f;
+    color: #061747;
+    border: none;
+    padding: 13px 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+section {
+    padding: 65px 8%;
+}
+
+.heading {
+    text-align: center;
+    color: #061747;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.about {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.9;
+    color: #66718a;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-bottom: 4px solid #e7b94f;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #0b2b70;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #66718a;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+.meetings {
+    background: #eef1f8;
+}
+
+/* ROADMAP */
+
+.roadmap {
+    background: #061747;
+}
+
+.roadmap .heading {
+    color: #e7b94f;
+}
+
+.roadmap .card {
+    background: #102d6a;
+    color: white;
+}
+
+.roadmap .card h3 {
+    color: #e7b94f;
+}
+
+.roadmap .card p {
+    color: white;
+}
+
+/* PROJECTS */
+
+.project {
+    background: white;
+}
+
+/* TEAM */
+
+.team {
+    background: #eef1f8;
+    text-align: center;
+}
+
+
+
+footer {
+    background: #041239;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+}
+
+footer span {
+    color: #e7b94f;
+}
+
+
+
+@media(max-width: 600px) {
+
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 45px 6%;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<header>
+
+    <div class="logo">
+        <img src="image.png"  alt="CAPE NEXUS Logo">
+        CAPE NEXUS
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#meetings">Meetings</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Team</a>
+    </nav>
+
+</header>
+
+<!-- HOME -->
+
+<div class="hero" id="home">
+
+    <img src="image.png"
+         alt="CAPE NEXUS Logo">
+
+    <h1>CAPE NEXUS</h1>
+
+    <h2>ARC & CORE COUNCIL TEAM</h2>
+
+    <p>
+        Learn | Build | Lead
+        <br>
+        Building Skills. Creating Innovation.
+        <br>
+        Turning Ideas into Real-World Solutions.
+    </p>
+
+    <button onclick="document.getElementById('about').scrollIntoView()">
+        Explore Our Journey
+    </button>
+
+</div>
+
+
+
+<section id="about">
+
+    <h2 class="heading">About Us</h2>
+
+    <p class="about">
+        CAPE NEXUS ARC & Core Council is a
+        student-driven technical team focused on
+        learning new technologies, developing
+        practical projects and solving real-world
+        problems.
+
+        <br><br>
+
+        Our mission is to improve technical knowledge,
+        encourage innovation, build teamwork and create
+        meaningful solutions through technology.
+    </p>
+
+</section>
+
+
+
+<section class="meetings" id="meetings">
+
+    <h2 class="heading">Weekly Meeting Minutes</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>12 September 2026</h3>
+            <p>
+                • Team skill analysis  <br> • Technical knowledge discussion <br> • Core Council responsibilities <br>
+                • Activity planning
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>19 September 2026</h3>
+            <p>
+                • Technical roadmap
+                <br>
+                • Python learning plan
+                <br>
+                • Project development
+                <br>
+                • Real-world project ideas
+            </p>
+        </div>
+        <div class="card">
+            <h3>26 September 2026</h3>
+            <p> • 90-day roadmap
+                <br>
+                • Problem Bank creation
+                <br>
+                • Team responsibilities
+                <br>
+                • Mini-project planning
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>3 October 2026</h3>
+            <p>
+                • Case study discussion
+                <br>
+                • Python learning
+                <br>
+                • AI and IoT basics
+                <br>
+                • Technical activities
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>17 October 2026</h3>
+            <p>
+                • Artificial Intelligence
+                <br>
+                • Semiconductor technology
+                <br>
+                • Electrical opportunities
+                <br>
+                • Practical learning
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>24 October 2026</h3>
+            <p>
+                • Case study review
+                <br>
+                • CAPE Clouds 2.0
+                <br>
+                • Quantum Computing
+                <br>
+                • Industrial Visit planning
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- LEARNING ROADMAP -->
+
+<section class="roadmap" id="roadmap">
+
+    <h2 class="heading">Our Learning Roadmap</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Months 1–3</h3>
+            <p>
+                Programming Logic
+                <br>
+                HTML, CSS, JavaScript
+                <br>
+                Python Basics
+                <br>
+                SQL and GitHub
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Months 4–6</h3>
+            <p>
+                Project Development
+                <br>
+                Real-world Problems
+                <br>
+                Documentation
+                <br>
+                Team Projects
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Months 7–9</h3>
+            <p>
+                Data Analytics
+                <br>
+                Artificial Intelligence
+                <br>
+                Web and API
+                <br>
+                IoT Exposure
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Months 10–12</h3>
+            <p>
+                Innovation
+                <br>
+                Prototype Development
+                <br>
+                Hackathons
+                <br>
+                Exhibitions and Portfolio
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section class="project" id="projects">
+
+    <h2 class="heading">Projects & Innovation</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Project Bank</h3>
+            <p>
+                Collecting real-world problems and
+                identifying technology-based solutions.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Case Studies</h3>
+            <p>
+                Analysing existing technologies,
+                applications and their limitations.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Team Projects</h3>
+            <p>
+                Developing practical prototypes and
+                innovative solutions through teamwork.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="team" id="team">
+
+    <h2 class="heading">Our Core Council</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Naveena</h3>
+            <p>Team Coordinator</p>
+        </div>
+
+        <div class="card">
+            <h3>Aruna</h3>
+            <p>Project Documentation</p>
+        </div>
+
+        <div class="card">
+            <h3>Jothisha</h3>
+            <p>Problem Bank</p>
+        </div>
+
+        <div class="card">
+            <h3>Devi</h3>
+            <p>Student Development Tracker</p>
+        </div>
+
+
+        <div class="card">
+            <h3>Core Team Members</h3>
+            <p>Learning, Ideas and Project Contributions</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h2><span>CAPE NEXUS</span></h2>
+
+    <p>ARC & Core Council Team</p>
+
+    <p>LEARN | BUILD | LEAD</p>
+
+    <p>© 2026 CAPE NEXUS. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
