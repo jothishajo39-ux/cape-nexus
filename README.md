@@ -33,10 +33,10 @@ Team Projects – building practical prototypes through teamwork
 
 👥 Core Council
 Name	Role
-Naveena	Team Coordinator
-Aruna	Project Documentation
-Jothisha	Problem Bank
-Devi	Student Development Tracker
+Naveena -	Team Coordinator
+Aruna -	Project Documentation
+Jothisha	- Problem Bank
+Devi -	Student Development Tracker
 
 🗓️ Meeting Log (Sep – Oct 2026)
 Date	Topics
